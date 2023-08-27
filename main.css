@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background-color: #000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #d0af12;
+    color: #000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-acessorios .nav-link.active:hover {
+    color: #d0af12;
+}
+
+.navbar-toggler {
+    background-color: #d0af12;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-a-loja,
+#acessorios {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.text-colored {
+    color: #d0af12;
+}
+
+.nav-acessorios .nav-link.active,
+.nav-acessorios .nav-link.active:hover,
+#fale-conosco button  {
+    background-color: #d0af12;
+    color: #fff;
+}
+
+.nav-acessorios .nav-link:hover {
+    color: #d0af12;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

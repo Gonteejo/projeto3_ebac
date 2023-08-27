@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>LH Store</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-1" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <i class="bi bi-laptop"></i>
+                LH Store
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navecao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navecao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door  me-1"></i>
+                            Sobre a loja</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-person-workspace  me-1"></i>
+                            Serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#acessorios" class="nav-link">
+                            <i class="bi bi-phone  me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Contato</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#localizacao" class="nav-link">
+                            <i class="bi bi-geo-alt  me-1"></i>
+                            Localização</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/faixada.jpg" class="d-block w-100" alt="Foto da faixada da loja">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/inside.jpg" class="d-block w-100" alt="Foto interior da loja">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/inside2.jpg" class="d-block w-100 rounded"
+                                alt="Foto do espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempore repellat
+                                fugit nihil officiis porro soluta eaque vitae? Nulla iste repudiandae exercitationem
+                                laudantium in obcaecati, consequatur beatae labore voluptates! Nostrum.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima quos alias esse!
+                                Animi fugiat aliquam laudantium possimus placeat error, inventore illo culpa vero quos
+                                perferendis, excepturi illum, suscipit quasi?
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Veja <span class="text-colored">Nossos serviços</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/cell-maint.jpeg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-cpu"></i>
+                            Reparo de celulares
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fuga tempore itaque illum!
+                            Blanditiis corporis, autem a dolores aliquid rem quasi exercitationem excepturi expedita hic
+                            nobis sequi eligendi! Hic, eum!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/nb_maint.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-device-hdd"></i>
+                            Reparo de notebooks
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fuga tempore itaque illum!
+                            Blanditiis corporis, autem a dolores aliquid rem quasi exercitationem excepturi expedita hic
+                            nobis sequi eligendi! Hic, eum!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/homem escolhendo celular.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-shop"></i>
+                            Acessórios
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt fuga tempore itaque illum!
+                            Blanditiis corporis, autem a dolores aliquid rem quasi exercitationem excepturi expedita hic
+                            nobis sequi eligendi! Hic, eum!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acessorios" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">acessórios</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-acessorios">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#capinhas"
+                                class="fw-bold text-start nav-link text-colored active">Capinhas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#películas"
+                                class="fw-bold text-start nav-link text-colored">Películas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carregadores"
+                                class="fw-bold text-start nav-link text-colored">Carregadores</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="capinhas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CAPAA10.jpeg" alt="Capa A10" />
+                                        <h5 class="text-colored fw-bold mt-2">Capa A10</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/capaiphone.jpg" alt="Capa Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Capa Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/CAPAA10.jpeg" alt="Capa A10" />
+                                        <h5 class="text-colored fw-bold mt-2">Capa A10</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/capaiphone.jpg" alt="Capa Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Capa Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="películas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Peliculaa10.jpeg" alt="Película A10" />
+                                        <h5 class="text-colored fw-bold mt-2">Película A10</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/peliculaiphone.webp"
+                                            alt="Película Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Película Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/Peliculaa10.jpeg" alt="Película A10" />
+                                        <h5 class="text-colored fw-bold mt-2">Película A10</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/peliculaiphone.webp"
+                                            alt="Película Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Película Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="carregadores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/usbc.webp" alt="Carregador USB-C" />
+                                        <h5 class="text-colored fw-bold mt-2">Carregador USB-C</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/iphone.jpg" alt="Carregador Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Carregador Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/usbc.webp" alt="Carregador USB-C" />
+                                        <h5 class="text-colored fw-bold mt-2">Carregador USB-C</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="img/iphone.jpg" alt="Carregador Iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Carregador Iphone</h5>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form action="https://formcarry.com/s/MpFJrRFIP6" method="POST" accept-charset="UTF-8">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input name="text" type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input name="email" type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone
+                                    (Opcional)</label>
+                                <input name="telefone" type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea name="mensagem" class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi text-colored bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi text-colored bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi text-colored bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rodovia BR 101 Norte, Km 13-15 s/n, R. Nova, Goiana - PE, 55900-000
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="localizacao">
+            <div class="row">
+                <h2 class="section-title text-center">Veja <span class="text-colored">nossa localização</span></h2>
+            </div>
+            <div class="container ratio" style="--bs-aspect-ratio: 25%;">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15818.370121120764!2d-34.981650326124075!3d-7.619237112885119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab63f06ca92787%3A0x1e14e5458b9036f0!2sStellantis%20Pernambuco%20-%20F%C3%A1brica%20da%20Jeep!5e0!3m2!1spt-BR!2sbr!4v1693148582293!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <footer>
+            <div class="container p-1">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored fs-5">Conteúdo produzido para fins didáticos, caso
+                        sinta que teve seus direitos violados entre em contato que removeremos do site.
+                    </h2>
+                    <h2 class="section-title text-center text-colored fs-5">Desenvolvido por Gabriel Gontijo
+                    </h2>
+                </div>
+
+        </footer>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
